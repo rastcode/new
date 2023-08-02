@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-family: "Custom";
+}
+
+@font-face {
+  font-family: "Custom";
+
+  src: local("Custom");
+  src: url("/src/assets/fonts/Custom.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Calibry";
+
+  src: local("Calibry");
+  src: url("/src/assets/fonts/Calibry.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  min-width: 385px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.print-container {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+}
+.main-login {
+  background: #cfe8ff;
+  min-width: 380px;
+  height: 140vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
